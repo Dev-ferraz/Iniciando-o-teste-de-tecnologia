@@ -60,26 +60,21 @@ namespace apiToDo.Controllers
             }
         }
 
-        // Insere ou Atualiza uma tarefa
-        [HttpPut("Atualizar/{id}")]
-        public async Task<ActionResult<List<TarefaDTO>>> AtualizarTarefa(int id, [FromBody] TarefaDTO tarefaAtualizada)
+      
+        // Insere uma nova tarefa
+        [HttpPost("Inserir")]
+        public async Task<ActionResult<List<TarefaDTO>>> InserirTarefa([FromBody] TarefaDTO novaTarefa)
         {
             try
             {
-                if (tarefaAtualizada == null)
+                if (novaTarefa == null)
                     return BadRequest(new { Message = "A tarefa não pode ser nula." });
 
-                var tarefaExistente = _tarefas.lstTarefas().FirstOrDefault(t => t.ID_TAREFA == id);
+                await _tarefas.InserirOuAtualizarTarefaAsync(novaTarefa); // Inserção nova
 
-                if (tarefaExistente == null)
-                    return NotFound(new { Message = $"Tarefa com ID {id} não encontrada." });
+                var tarefasList = _tarefas.lstTarefas(); // Retorna a lista de tarefas atualizada
 
-                tarefaAtualizada.ID_TAREFA = id; // Garantir que o ID esteja correto
-                await _tarefas.InserirOuAtualizarTarefaAsync(tarefaAtualizada); // Método para atualizar ou inserir tarefa
-
-                var tarefasList = _tarefas.lstTarefas(); // Retorna a lista atualizada de tarefas
-
-                _logger.LogInformation($"Tarefa com ID {id} atualizada com sucesso.");
+                _logger.LogInformation("Nova tarefa inserida com sucesso.");
                 return Ok(tarefasList);
             }
             catch (ArgumentException ex)
@@ -89,10 +84,12 @@ namespace apiToDo.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Erro ao atualizar tarefa: {ex.Message}");
-                return StatusCode(500, new { Message = "Erro ao atualizar tarefa: " + ex.Message });
+                _logger.LogError($"Erro ao inserir tarefa: {ex.Message}");
+                return StatusCode(500, new { Message = "Erro ao inserir tarefa: " + ex.Message });
             }
         }
+
+
 
         // Deleta uma tarefa com base no ID
         [HttpDelete("DeleteTask/{id}")]
@@ -129,6 +126,41 @@ namespace apiToDo.Controllers
                 return StatusCode(500, new { Message = "Erro ao deletar tarefa: " + ex.Message });
             }
         }
+        // Atualiza uma tarefa existente
+        [HttpPut("Atualizar/{id}")]
+        public async Task<ActionResult<List<TarefaDTO>>> AtualizarTarefa(int id, [FromBody] TarefaDTO tarefaAtualizada)
+        {
+            try
+            {
+                // Verifica se a tarefa recebida é nula ou a descrição está vazia
+                if (tarefaAtualizada == null || string.IsNullOrWhiteSpace(tarefaAtualizada.DS_TAREFA))
+                    return BadRequest(new { Message = "A tarefa ou a descrição não pode ser nula ou vazia." });
+
+                // Tenta atualizar a tarefa diretamente, sem buscar novamente na lista
+                tarefaAtualizada.ID_TAREFA = id; // Define o ID a ser atualizado
+                await _tarefas.InserirOuAtualizarTarefaAsync(tarefaAtualizada); // Método de inserção/atualização no serviço
+
+                // Retorna a lista atualizada de tarefas
+                var tarefasList = _tarefas.lstTarefas();
+
+                _logger.LogInformation($"Tarefa com ID {id} atualizada com sucesso.");
+                return Ok(tarefasList);
+            }
+            catch (ArgumentException ex)
+            {
+                // Se houver erro de validação
+                _logger.LogWarning($"Erro de validação: {ex.Message}");
+                return BadRequest(new { Message = $"Erro de validação: {ex.Message}" });
+            }
+            catch (Exception ex)
+            {
+                // Para erros inesperados
+                _logger.LogError($"Erro ao atualizar tarefa: {ex.Message}");
+                return StatusCode(500, new { Message = "Erro ao atualizar tarefa: " + ex.Message });
+            }
+        }
+
+
 
     }
 }

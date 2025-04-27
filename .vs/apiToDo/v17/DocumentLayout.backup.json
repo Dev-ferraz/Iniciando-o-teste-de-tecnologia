@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\models\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\dto\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\dto\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|c:\\users\\thiago\\iniciando-o-teste-de-tecnologia\\apitodo\\dto\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10C7EB2B-28E1-48DB-845D-686EA016EB31}|apiToDo\\apiToDo.csproj|solutionrelative:apitodo\\dto\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TarefaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\DTO\\TarefaDTO.cs",
               "RelativeDocumentMoniker": "apiToDo\\DTO\\TarefaDTO.cs",
@@ -66,20 +66,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "apiToDo\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Properties\\launchSettings.json",
               "RelativeToolTip": "apiToDo\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-26T01:24:54.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T01:24:54.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\appsettings.Development.json",
               "RelativeDocumentMoniker": "apiToDo\\appsettings.Development.json",
@@ -87,12 +86,11 @@
               "RelativeToolTip": "apiToDo\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-26T01:02:59.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T01:02:59.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Program.cs",
               "RelativeDocumentMoniker": "apiToDo\\Program.cs",
@@ -104,37 +102,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Startup.cs",
               "RelativeDocumentMoniker": "apiToDo\\Startup.cs",
               "ToolTip": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Startup.cs",
               "RelativeToolTip": "apiToDo\\Startup.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:24:49.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Tarefas.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Models\\Tarefas.cs",
               "RelativeDocumentMoniker": "apiToDo\\Models\\Tarefas.cs",
               "ToolTip": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Models\\Tarefas.cs",
               "RelativeToolTip": "apiToDo\\Models\\Tarefas.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAuwG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T01:24:07.542Z"
+              "WhenOpened": "2025-04-25T01:24:07.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TarefasController.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Controllers\\TarefasController.cs",
               "RelativeDocumentMoniker": "apiToDo\\Controllers\\TarefasController.cs",
               "ToolTip": "C:\\Users\\Thiago\\Iniciando-o-teste-de-tecnologia\\apiToDo\\Controllers\\TarefasController.cs",
               "RelativeToolTip": "apiToDo\\Controllers\\TarefasController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAwHAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T01:24:07.298Z",
               "EditorCaption": ""
