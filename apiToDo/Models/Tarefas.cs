@@ -64,10 +64,7 @@ namespace apiToDo.Models
             return Task.CompletedTask;
         }
 
-
-
-
-        // ✅ NOVO MÉTODO: Inserir uma lista de tarefas
+        // NOVO MÉTODO: Inserir uma lista de tarefas
         public Task InserirTarefasAsync(List<TarefaDTO> tarefas)
         {
             if (tarefas == null || tarefas.Count == 0)
@@ -97,11 +94,6 @@ namespace apiToDo.Models
 
             return Task.CompletedTask;
         }
-
-
-
-
-
 
         // Método que deleta uma tarefa
         public Task DeletarTarefaAsync(int ID_TAREFA)

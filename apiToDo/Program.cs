@@ -16,7 +16,9 @@ namespace apiToDo
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>(); // Usa a classe Startup para configurar os serviços e o pipeline de requisições
+                    webBuilder
+                        .UseStartup<Startup>()  // Usa a classe Startup
+                        .UseUrls("http://localhost:5000"); // Define as URLs para HTTP e HTTPS
                 });
     }
 }
